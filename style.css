@@ -1,0 +1,54 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(https://images8.alphacoders.com/415/415511.jpg); */
+}
+
+.form {
+    text-align: center;
+    background-color: aqua;
+    /* border: 1px solid red; */
+    width: 20%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+}
+
+.username {
+    margin-top: 10px;
+}
+
+.pass {
+    margin-top: 10px;
+}
+
+.username > input {
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+
+.pass > input  {
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+
