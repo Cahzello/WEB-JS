@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: url(https://images8.alphacoders.com/415/415511.jpg); */
+}
+
+body {
+    background-color: #782fc2;    
 }
 
 .form {
@@ -32,6 +35,15 @@
     height: 40px;
 }
 
+.submit:hover {
+    background-color: #5c9900;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    transition: all .2s ease-in-out;
+}
+
 .username {
     margin-top: 10px;
 }
@@ -43,12 +55,16 @@
 .username > input {
     border-radius: 5px;
     border: none;
-    height: 20px;
+    padding: 2px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 .pass > input  {
     border-radius: 5px;
     border: none;
-    height: 20px;
+    padding: 2px;
+    height: 25px;
+    margin-top: 10px;
 }
 
